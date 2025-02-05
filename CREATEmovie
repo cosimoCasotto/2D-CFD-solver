@@ -1,0 +1,2 @@
+cd gridImages 
+ffmpeg -framerate 10 -pattern_type glob -i 'imgU*.png' -y movie.mp4
